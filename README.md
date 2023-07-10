@@ -11,7 +11,7 @@ This is a coding challenge for Procuros. The main goal of the challenge to
 - Each row represents a **product variant**.
 - The **product** info are repeated in each row.
 - Each row looks like this:
-  - **Handle**: It's the identifier of the product in the source system, we are procuros should not rely on it.
+  - **Handle**: It's the identifier of the product in the source system, we are procuros are not going to save it.
   - **Title**: The title of the product -> should be mapped to `name` field in the `products` table.
   - **Vendor**: Product Brand -> should be mapped to `brand` field in the `products` table.
   - **Variant SKU**: The SKU of the variant -> should be mapped to `sku` field in the `variants` table.
