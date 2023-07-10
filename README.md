@@ -31,7 +31,7 @@ This is a coding challenge for Procuros. The main goal of the challenge to
     - The `Variant Price` field should be a positive float and can't be 0.
     - The `Variant Barcode` field should be optional and a 9 digits string (when provided).
   - For invalid rows, we should skip them and report them back as corrupted rows.
-- The data need to be mapped correctly to the database tables.
+- The data need to be transformed correctly to the database tables structure.
 - The data should be saved into the database tables.
 
 ## Nice To Have
