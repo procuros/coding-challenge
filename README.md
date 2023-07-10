@@ -4,7 +4,6 @@
 The application can be installed by running the following commands:
 
 ```
-make build
 make install
 ```
 
