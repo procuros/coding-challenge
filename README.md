@@ -36,7 +36,7 @@ This is a coding challenge for Procuros. The main goal of the challenge to
 
 ## Nice To Have
 - The ability to handle large files (millions of rows) and consume them efficiently.
-- ??? 
+- The same functionality will be used from an api later on. 
 
 ## Running the application
 The application can be installed by running the following commands:
