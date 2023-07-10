@@ -37,6 +37,7 @@ This is a coding challenge for Procuros. The main goal of the challenge to
 ## Nice To Have
 - The ability to handle large files (millions of rows) and consume them efficiently.
 - The same functionality will be used from an api later on, so consider that when building the solution.
+- You are free to do the source data validation as you like. However, to keep it close with what we do here, we recommend using `JSON Schema` to define the validation rules.
 
 ## Running the application
 The application can be installed by running the following commands:
