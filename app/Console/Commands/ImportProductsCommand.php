@@ -26,7 +26,9 @@ class ImportProductsCommand extends Command
     public function handle()
     {
         $csvPath = $this->option('csvPath') ?? public_path('input.csv');
+        
         $this->info('ImportProductsCommand: Start importing product data from ' . $csvPath);
+        
         $countCorruptedRows = $countProducts = $countVariants = 0;
 
         // TODO: Implement

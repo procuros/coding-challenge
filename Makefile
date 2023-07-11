@@ -50,6 +50,10 @@ tests: ## runs the tests
 shell: ## opens a shell in the php container
 	docker exec -it php /bin/bash
 
+.PHONY: import
+import: ## runs the importer
+	docker compose run --rm php php artisan app:import-products --csvPath=/var/www/html/public/input.csv 
+
 .PHONY: vendor
 vendor: ## runs composer install in the php container
 	docker compose run --rm php composer install && composer validate --ansi
