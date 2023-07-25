@@ -54,9 +54,9 @@ shell: ## opens a shell in the php container
 import: ## runs the importer
 	docker compose run --rm php php artisan app:import-products --csvPath=/var/www/html/public/input.csv
 
-.PHONY: generate-requirement
-generate-requirement: ## runs the generate requirement command
-	docker compose run --rm php php artisan app:generate-requirement
+.PHONY: generate-requirements
+generate-requirements: ## runs the generate requirements command
+	docker compose run --rm php php artisan app:generate-requirements
 
 .PHONY: vendor
 vendor: ## runs composer install in the php container
