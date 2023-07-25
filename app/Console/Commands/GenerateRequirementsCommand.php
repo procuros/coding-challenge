@@ -33,16 +33,16 @@ class GenerateRequirementsCommand extends Command
      */
     public function handle()
     {
-        $this->info('GenerateRequirementCommand: using the app key ' . env('APP_KEY'));
+        $this->info('GenerateRequirementsCommand: using the app key ' . env('APP_KEY'));
 
-        $this->info('GenerateRequirementCommand: Decrypting the input file');
+        $this->info('GenerateRequirementsCommand: Decrypting the input file');
         $inputFile = Crypt::decryptString(self::INPUT_CONTENT);
         file_put_contents(self::INPUT_FILE, $inputFile);
-        $this->info('GenerateRequirementCommand: public/input.csv file created');
+        $this->info('GenerateRequirementsCommand: public/input.csv file created');
 
-        $this->info('GenerateRequirementCommand: Decrypting the requirement file');
+        $this->info('GenerateRequirementsCommand: Decrypting the requirement file');
         $requirementFile = Crypt::decryptString(self::REQUIREMENT_CONTENT);
         file_put_contents(self::REQUIREMENT_FILE, $requirementFile);
-        $this->info('GenerateRequirementCommand: REQUIREMENT.md file is now filled');
+        $this->info('GenerateRequirementsCommand: REQUIREMENT.md file is now filled');
     }
 }
