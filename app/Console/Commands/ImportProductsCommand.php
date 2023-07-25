@@ -18,7 +18,7 @@ class ImportProductsCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'This command is the entry point of the coding challenge';
 
     /**
      * Execute the console command.
@@ -26,9 +26,9 @@ class ImportProductsCommand extends Command
     public function handle()
     {
         $csvPath = $this->option('csvPath') ?? public_path('input.csv');
-        
+
         $this->info('ImportProductsCommand: Start importing product data from ' . $csvPath);
-        
+
         $countCorruptedRows = $countProducts = $countVariants = 0;
 
         // TODO: Implement
