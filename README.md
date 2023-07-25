@@ -6,6 +6,7 @@ In order to complete the challenge, you will need to:
 - [Mirror this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) on your own github account.
   - Make the repository private.
   - Add the user `hanihh` and `mozammil` as a collaborators.
+  - (Optional) Would be great if you keep all of your changes in a separate branch. 
 - Run the application using and make sure it's working using the tutorial below.
 - Once you are done, you can open the `onetimesecret.com` link sent to you by email, and update the APP_KEY in your .env file with the secret.
 - You need to run the command `make generate-requirement` in order to generate the requirement files.
@@ -24,6 +25,7 @@ In order to complete the challenge, you will need to:
   - The tests quality.
   - The documentation quality.
   - The time taken to complete the challenge.
+- When you are done, please notify us by email.
 
 ## Running the application
 The application can be installed by running the following commands:
