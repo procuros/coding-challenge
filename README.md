@@ -10,7 +10,7 @@ In order to complete the challenge, you will need to:
 - Run the application using and make sure it's working using the tutorial below.
 - Once you are done, you can open the `onetimesecret.com` link sent to you by email, and update the APP_KEY in your .env file with the secret.
 - You need to run the command `make generate-requirements` in order to generate the requirement files.
-- The output of this command will be two files `REQUIREMENT.md` and `public/input.csv`.
+- The output of this command will be two files `REQUIREMENTS.md` and `public/input.csv`.
 
 ## Instructions
 - Once you open `onetimesecret.com` link, you have 48 hours to complete the challenge.
