@@ -55,9 +55,8 @@ import: ## runs the importer
 	docker compose run --rm php php artisan app:import-products --csvPath=/var/www/html/public/input.csv
 
 .PHONY: generate-requirement
-import: ## runs the importer
+generate-requirement: ## runs the generate requirement command
 	docker compose run --rm php php artisan app:generate-requirement
-
 
 .PHONY: vendor
 vendor: ## runs composer install in the php container
