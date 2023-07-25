@@ -9,7 +9,7 @@ In order to complete the challenge, you will need to:
   - (Optional) Would be great if you keep all of your changes in a separate branch. 
 - Run the application using and make sure it's working using the tutorial below.
 - Once you are done, you can open the `onetimesecret.com` link sent to you by email, and update the APP_KEY in your .env file with the secret.
-- You need to run the command `make generate-requirement` in order to generate the requirement files.
+- You need to run the command `make generate-requirements` in order to generate the requirement files.
 - The output of this command will be two files `REQUIREMENT.md` and `public/input.csv`.
 
 ## Instructions
